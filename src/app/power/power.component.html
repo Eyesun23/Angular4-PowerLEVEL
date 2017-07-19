@@ -1,0 +1,15 @@
+<header>
+  <form (submit)="onSubmit($request)">
+    <h1>Initial Power Level:
+      <input type="number" min='1'max='100' name="plevel"  [(ngModel)]="plevel" #level="ngModel">
+      <input type="submit" value="Calculate Powers"></h1>
+  </form>
+</header>
+<section class="body">
+  <app-human [plevel]="plevel" class='card'></app-human>
+  <app-saiyan [plevel]="plevel" class='card'></app-saiyan>
+  <app-supersaiyan [plevel]="plevel" class='card'></app-supersaiyan>
+  <app-supersaiyan2 [plevel]="plevel" class='card'></app-supersaiyan2>
+  <app-supersaiyan3 [plevel]="plevel" class='card'></app-supersaiyan3>
+  <app-supersaiyan4 [plevel]="plevel" class='card'></app-supersaiyan4>
+</section>

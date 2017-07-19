@@ -1,0 +1,22 @@
+* {
+}
+header {
+    padding: 10px;
+    margin-left: 20px;
+}
+
+section.body{
+    text-align: center;
+}
+.card {
+    background-color: #fffae5;
+    text-align: left;
+    width: 285px;
+    height: 125px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 15px;
+    padding: 5px;
+    vertical-align: top;
+
+}
